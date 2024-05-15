@@ -1,0 +1,37 @@
+.sidebar{
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    left: 0;    
+    background: #222;
+    color: #fff;
+    padding: 30px;
+
+    &__logo {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        align-items: center;
+    }
+}
+.sidebar__collection{
+    margin: 50px 0;
+    .sidebar__item{
+        list-style: none;
+    }
+    .sidebar__link{
+        width: 100%;
+        display: block;
+        padding: 10px 0;
+        color: #fff;
+        text-decoration: none;
+        margin: 6px 0;
+        border-radius: 5px;
+        transition: .3s;
+    }
+    .sidebar__link.active{
+        background: #ddd;
+        color: #000;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,38 @@
+.login {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background: #363740;
+    gap: 50px;
+    padding: 50px;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    
+    h2 {
+        font-size: 32px;
+        color: white;
+        text-align: center;
+    }
+    .form__btn {
+        display: flex;
+        justify-content: flex-end;
+
+        button {
+            padding: 10px;
+            border: 1px solid transparent;
+            border-radius: 5px;
+            width: 100px;
+        }
+    }
+
+    input {
+        padding: 8px 10px;
+        font-size: 16px;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        outline: none;
+    }
+}
